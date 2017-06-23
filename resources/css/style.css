@@ -1,0 +1,173 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica, sans-serif;
+}
+
+.mainbanner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30rem;
+  width: 100%;
+  top: 0;
+  background-image: url("../images/mainbanner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  width: 960px;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  background-color: cadetblue;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem 2rem;
+}
+
+.logo img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav p{
+  display: flex;
+  margin: 1rem 2rem;
+}
+
+.bannertextcont {
+  display: flex;
+  justify-content: flex-end;
+  width: 960px;
+}
+
+.bannertext {
+  display: flex;
+  position: absolute;
+  margin-top: 10rem;
+  margin-left: 2rem;
+  padding: 1.5rem 5rem;
+  padding-right: 7rem;
+  width: 25rem;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  background-color: white;
+}
+
+.maincontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+.pics {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 960px;
+}
+
+.paper,
+.ruler,
+.truck {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 8rem;
+  text-align: center;
+}
+
+.ruler {
+  margin-right: 6rem;
+  margin-left: 6rem;
+}
+
+.paper img {
+  width: 3.5rem;
+}
+
+.ruler img,
+.truck img {
+  width: 5rem;
+}
+
+.bottomcontainer {
+  display: flex;
+  flex-direction: row;
+  width: 960px;
+  margin-bottom: 5rem;
+}
+
+.philosophy,
+.appointments {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.philosophy {
+  margin-right: 5%;
+}
+
+.philhead,
+.appointhead {
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+  width: 10rem;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  background-color: cadetblue;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  width: 960px;
+  text-align: left;
+  background-color: azure;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.footer img{
+  height: 1.5rem;
+  margin-left: 4rem;
+  margin-right: 1rem;
+}
