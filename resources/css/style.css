@@ -44,12 +44,16 @@ header {
 }
 
 .nav {
+    display: none;
+}
+
+.navs {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.nav p{
+.navs p{
   display: flex;
   margin: 1rem 2rem;
 }
@@ -195,7 +199,7 @@ footer {
     margin-left: 2rem;
   }
 
-  .nav {
+  .navs {
     margin-right: 2rem;
   }
 
@@ -211,7 +215,6 @@ footer {
     padding: 0.75rem 4rem;
     margin-top: 10rem;
     width: 17rem;
-    border: 1px solid black;
   }
 
   .bottomcontainer {
@@ -220,5 +223,119 @@ footer {
 
   footer {
     margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width:470px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logo p {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    margin-right: 1rem;
+  }
+
+  .navs {
+    display: none;
+  }
+
+  .mainbanner {
+    height: 14rem;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: 20%;
+  }
+
+  .bannertextcont {
+    margin-top: 0;
+
+  }
+
+  .bannertext {
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 9rem;
+
+    width: 100%;
+  }
+
+  .maincontent {
+    top: 17rem;
+  }
+
+  .pics {
+    flex-direction: column;
+    margin-top: 3.77rem;
+    margin-bottom: 3.77rem;
+  }
+
+  .pics p {
+    font-family: Helvetica;
+    font-size: 0.77rem;
+  }
+
+  .ruler {
+    margin-top: 1.54rem;
+    margin-bottom: 1.54rem;
+  }
+
+  .bottomcontainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+  }
+
+  .philosophy, .appointments {
+    align-items: center;
+    margin-bottom: 4rem;
+    width: 100%;
+  }
+
+  .philhead, .appointhead {
+    width: 100%;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .philtext, .appointtext  {
+    font-family: Helvetica;
+    font-size: 0.77rem;
+    text-align: left;
+    width: 90%;
+  }
+
+
+  footer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .footer img{
+    width: 100%;
+  }
+
+  .copy {
+    display: none;
   }
 }
