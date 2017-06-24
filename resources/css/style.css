@@ -227,10 +227,24 @@ footer {
 }
 
 @media only screen and (max-width:470px) {
+  html {
+    overflow: scroll;
+  }
+
   header {
     display: flex;
     justify-content: space-between;
     width: 100%;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .logo {
@@ -239,13 +253,20 @@ footer {
     justify-content: center;
   }
 
+  .logo img {
+    position: absolute;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-right: 5rem;
+  }
+
   .logo p {
     display: none;
   }
 
   .nav {
     display: flex;
-    margin-right: 1rem;
+    margin-right: 2rem;
   }
 
   .navs {
@@ -253,7 +274,7 @@ footer {
   }
 
   .mainbanner {
-    height: 14rem;
+    height: 17rem;
     width: 100%;
     align-items: center;
     align-content: center;
@@ -263,17 +284,18 @@ footer {
   }
 
   .bannertextcont {
-    margin-top: 0;
 
   }
 
   .bannertext {
-    font-size: 1rem;
+    position: static;
+    font-size: 1.5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    margin-top: 9rem;
-
-    width: 100%;
+    margin-top: 8rem;
+    text-align: center;
+    justify-content: cente;
+    width: 25rem;
   }
 
   .maincontent {
@@ -326,13 +348,10 @@ footer {
 
   footer {
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
   }
 
-  .footer img{
-    width: 100%;
+  .footer {
+    margin-right: 3rem;
   }
 
   .copy {
